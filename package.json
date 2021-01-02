@@ -9,6 +9,7 @@
   "author": "Kabakov Vladislav",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^4.5.3",
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -22,6 +23,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^2.0.0",
-    "bootstrap": "^4.5.3"
+    "jquery": "^2.2.4",
+    "popper.js": "^1.16.1"
   }
 }

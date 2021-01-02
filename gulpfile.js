@@ -24,7 +24,7 @@ const postcss = require("gulp-postcss");
 
 const sourcemaps = require("gulp-sourcemaps");
 
-const path ={
+const path = {
 
 	config: 'src/config/',
 	frameworks: 'src/frameworks/',
@@ -38,7 +38,7 @@ function browsersync() {
 	browserSync.init({
 		server: {baseDir: path.build},
 		notify: false,
-		online: false
+		online: true
 	})
 }
 
@@ -61,11 +61,11 @@ function scripts() {
 
 function styles() {
 
-	return src(
+	return src([
 		path.frameworks + '*.scss',
 		path.config + '*.scss',
 		path.blocks + '*.scss'
-		)
+		])
 	.pipe(concat('concat.scss'))
 	.pipe(sass())
 	.pipe(gcmq())
