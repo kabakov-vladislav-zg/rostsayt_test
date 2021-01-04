@@ -1,0 +1,11 @@
+.navigation__link {
+	color: var(--red);
+
+	display: block;
+
+	border: 1px solid var(--gray-light);
+	border-top: none;
+	border-right: none;
+
+	padding: .875em .4375em;
+}

@@ -1,0 +1,21 @@
+.dropdown__lebel{
+  position: absolute;
+  right: 0;
+  top: .1em;
+  
+  height: 2.625em;
+  background: #ddd;
+  border-radius: 0.3em;
+  padding: .5em 1em;
+  width: 3.5em;
+}
+
+
+
+
+.dropdown__lebel::after{
+  content: '\02C5';
+}
+.dropdown__checkbox:checked + .dropdown__lebel::after{
+  content: '\02C4';
+}

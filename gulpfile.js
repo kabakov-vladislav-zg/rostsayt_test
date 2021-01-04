@@ -26,8 +26,7 @@ const sourcemaps = require("gulp-sourcemaps");
 
 const path = {
 
-	config: 'src/config/',
-	frameworks: 'src/frameworks/',
+	lib: 'src/lib/**/',
 	blocks: 'src/blocks/**/**/',
 	pages: 'src/pages/',
 	build: 'build/'
@@ -45,32 +44,39 @@ function browsersync() {
 function startwatch() {
  
 	watch(path.blocks + '*.js', scripts);
-	watch(path.blocks + '*.scss', styles);
-	watch(path.config + '*.scss', styles);
-	watch(path.frameworks + '*.scss', styles);
+
+	watch(path.lib + '*.scss', stylesLib);
+
+	watch(path.blocks + '*.css', styles);
+
 	watch(path.pages + '*.html', pages);
 }
 
 function scripts() {
 
 	return src(path.blocks + '*.js')
-	.pipe(concat('concat.js'))
+	.pipe(concat('main.js'))
+	.pipe(dest(path.build, {overwrite: true}))
+	.pipe(browserSync.stream())
+}
+
+function stylesLib() {
+
+	return src(path.lib + '*.scss')
+	.pipe(sass())
+	.pipe(concat('lib.css'))
 	.pipe(dest(path.build, {overwrite: true}))
 	.pipe(browserSync.stream())
 }
 
 function styles() {
 
-	return src([
-		path.frameworks + '*.scss',
-		path.config + '*.scss',
-		path.blocks + '*.scss'
-		])
-	.pipe(concat('concat.scss'))
-	.pipe(sass())
-	.pipe(gcmq())
-	.pipe(autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true }))
-	.pipe(cleancss( { level: { 1: { specialComments: 0 } } , format: 'beautify'  } ))
+	return src(path.blocks + '*.css')
+	.pipe(concat('main.css'))
+	//.pipe(sass())
+	//.pipe(gcmq())
+	//.pipe(autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true }))
+	//.pipe(cleancss( { level: { 1: { specialComments: 0 } } , format: 'beautify'  } ))
 	.pipe(dest(path.build, {overwrite: true}))
 	.pipe(browserSync.stream())
 }
@@ -90,4 +96,4 @@ exports.styles = styles;
 
 exports.pages = pages;
 
-exports.default = parallel(styles, scripts, pages, browsersync, startwatch);
+exports.default = parallel(styles, scripts, stylesLib, pages, browsersync, startwatch);

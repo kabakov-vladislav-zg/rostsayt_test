@@ -1,0 +1,25 @@
+.header__toolbar{
+	margin: 0 -.875em;
+	padding: 0 1.75em 1.75em;
+	width: 100vw;
+
+	box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,.3);
+}
+
+.header__toolbar > *{
+	margin: 1.5em 0;
+}
+
+@media (min-width: 768px) {
+	.header__toolbar{
+		margin: 0;
+		padding: 0;
+		width: auto;
+		box-shadow: none;
+
+		display: flex !important;
+		align-items: center;
+		justify-content: space-between;
+		flex-grow: 1;
+	}
+}
