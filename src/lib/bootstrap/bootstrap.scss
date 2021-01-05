@@ -6,6 +6,13 @@
  */
 
 $red: #F53A3A;
+$primary: $red;
+$border-radius: .375rem;
+$border-radius-sm: .375rem;
+$input-btn-padding-y-sm: 0;
+$input-btn-padding-x-sm: .75rem;
+
+
 
 $gray-light: #dddddd !default;
 
@@ -54,3 +61,7 @@ $colors: map-merge(
 @import "../../../node_modules/bootstrap/scss/spinners";
 @import "../../../node_modules/bootstrap/scss/utilities";
 @import "../../../node_modules/bootstrap/scss/print";
+
+.btn-link:disabled {
+	color: $red;
+}

@@ -17,7 +17,7 @@
 </head>
 <body class="body">
 
-	<header class="header navbar navbar-light">
+	<header class="header navbar">
 
 		<a href="index.html" class="navbar-brand">
 			<img loading="lazy" src="https://tolyatti.rostsayt.ru/images/logo.svg" alt="РостСайт - Создание сайтов">
@@ -29,141 +29,185 @@
 			</span>
 		</button>
 
-		<div class="header__toolbar toolbar collapse" id="headerToggleToolbar">
+		<div class="collapse toolbar" id="headerToggleToolbar">
 
-			<div class="toolbar__tool">
-				<button class="btn btn-link btn-sm">
-					<span>Тольятти</span>
-				</button>
-				<div>
-					<button class="btn btn-link btn-sm" disabled>
-						<span>RU</span>
-					</button>
-					|
+			<div class="header__toolbar">
+				<div class="toolbar__tool">
 					<button class="btn btn-link btn-sm">
-						<span>EN-US</span>
+						<span class="toolbar__city">Тольятти</span>
+					</button>
+					<div class="toolbar__lang">
+						<button class="btn btn-link btn-sm" disabled>
+							<span>RU</span>
+						</button>
+						<span>|</span>
+						<button class="btn btn-link btn-sm">
+							<span>EN-US</span>
+						</button>
+					</div>
+				</div>
+
+				<div class="toolbar__tool toolbar__tel">
+					<a href="tel:88482942025" itemprop="telephone">+7 (8482) 94-20-25</a>
+					<button class="btn btn-primary btn-sm">
+						<span>Заказать звонок</span>
 					</button>
 				</div>
+
+				<nav class="toolbar__navigation">
+
+					<ul class="navigation">
+
+						<li class="navigation__li dropdown dropdown_bottom">
+							<input class="dropdown__checkbox" type="checkbox" id="services">
+							<label class="dropdown__lebel d-xl-none" for="services"></label>
+							<a class="navigation__link dropdown__link" href="#">Услуги</a>
+							<ul class="dropdown__content">
+								<li class="navigation__li dropdown dropdown__li dropdown_right">
+									<input class="dropdown__checkbox" type="checkbox" id="creating">
+									<label class="dropdown__lebel d-xl-none" for="creating"></label>
+									<a class="navigation__link dropdown__link" href="#">Создание сайтов</a>
+									<ul class="dropdown__content">
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Landing Page</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Интернет-магазин</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Сайты для заводов</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Сайты для мед. учреждений</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Сайты для жилых комплексов</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Сайты для ресторанов</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navigation__li dropdown dropdown__li dropdown_right">
+									<input class="dropdown__checkbox" type="checkbox" id="smm">
+									<label class="dropdown__lebel d-xl-none" for="smm"></label>
+									<a class="navigation__link dropdown__link" href="#">Раскрутка сайтов</a>
+									<ul class="dropdown__content">
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">SEO оптимизация сайтов</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link dropdown__li" href="#">Контекстная реклама</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">SMM в социальных сетях</a>
+										</li>
+										<li class="navigation__li dropdown__li">
+											<a class="navigation__link" href="#">Оптимизация под Google Page Speed</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navigation__li dropdown__li">
+									<a class="navigation__link" href="#">Техническая поддержка</a>
+								</li>
+								<li class="navigation__li dropdown__li">
+									<a class="navigation__link" href="#">Мобильные приложения</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="navigation__li">
+							<a class="navigation__link" href="#">Портфолио</a>
+						</li>
+
+						<li class="navigation__li dropdown dropdown_bottom">
+							<input class="dropdown__checkbox" type="checkbox" id="about">
+							<label class="dropdown__lebel d-xl-none" for="about"></label>
+							<a class="navigation__link dropdown__link" href="#">О нас</a>
+							<ul class="dropdown__content">
+								<li class="navigation__li dropdown__li">
+									<a class="navigation__link" href="#">Цены</a>
+								</li>
+								<li class="navigation__li dropdown__li">
+									<a class="navigation__link" href="#">Вакансии</a>
+								</li>
+								<li class="navigation__li dropdown__li">
+									<a class="navigation__link" href="#">Отзывы</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="navigation__li">
+							<a class="navigation__link" href="#">Блог</a>
+						</li>
+
+						<li class="navigation__li dropdown dropdown_bottom">
+							<input class="dropdown__checkbox" type="checkbox" id="tools">
+							<label class="dropdown__lebel d-xl-none" for="tools"></label>
+							<a class="navigation__link dropdown__link" href="#">Инструменты</a>
+							<ul class="dropdown__content">
+								<li class="navigation__li dropdown__li">
+									<a class="navigation__link" href="#">SEO аудит сайта</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="navigation__li">
+							<a class="navigation__link" href="#">Контакты</a>
+						</li>
+
+					</ul>
+
+				</nav>
 			</div>
-
-			<div class="toolbar__tool">
-				<a href="tel:88482942025" itemprop="telephone">+7 (8482) 94-20-25</a>
-				<button class="btn btn-primary btn-sm">
-					<span>Заказать звонок</span>
-				</button>
-			</div>
-
-			<nav class="toolbar__navigation">
-
-				<ul class="navigation">
-
-					<li class="navigation__li dropdown dropdown_bottom">
-						<input class="dropdown__checkbox" type="checkbox" id="services">
-						<label class="dropdown__lebel d-xl-none" for="services"></label>
-						<a class="navigation__link" href="#">Услуги</a>
-						<ul class="dropdown__content">
-							<li class="navigation__li dropdown dropdown__li dropdown_right">
-								<input class="dropdown__checkbox" type="checkbox" id="creating">
-								<label class="dropdown__lebel d-xl-none" for="creating"></label>
-								<a class="navigation__link" href="#">Создание сайтов</a>
-								<ul class="dropdown__content">
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Landing Page</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Интернет-магазин</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Сайты для заводов</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Сайты для мед. учреждений</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Сайты для жилых комплексов</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Сайты для ресторанов</a>
-									</li>
-								</ul>
-							</li>
-							<li class="navigation__li dropdown dropdown__li dropdown_right">
-								<input class="dropdown__checkbox" type="checkbox" id="smm">
-								<label class="dropdown__lebel d-xl-none" for="smm"></label>
-								<a class="navigation__link" href="#">Раскрутка сайтов</a>
-								<ul class="dropdown__content">
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">SEO оптимизация сайтов</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link dropdown__li" href="#">Контекстная реклама</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">SMM в социальных сетях</a>
-									</li>
-									<li class="navigation__li dropdown__li">
-										<a class="navigation__link" href="#">Оптимизация под Google Page Speed</a>
-									</li>
-								</ul>
-							</li>
-							<li class="navigation__li dropdown__li">
-								<a class="navigation__link" href="#">Техническая поддержка</a>
-							</li>
-							<li class="navigation__li dropdown__li">
-								<a class="navigation__link" href="#">Мобильные приложения</a>
-							</li>
-						</ul>
-					</li>
-
-					<li class="navigation__li">
-						<a class="navigation__link" href="#">Портфолио</a>
-					</li>
-
-					<li class="navigation__li dropdown dropdown_bottom">
-						<input class="dropdown__checkbox" type="checkbox" id="about">
-						<label class="dropdown__lebel d-xl-none" for="about"></label>
-						<a class="navigation__link" href="#">О нас</a>
-						<ul class="dropdown__content">
-							<li class="navigation__li dropdown__li">
-								<a class="navigation__link" href="#">Цены</a>
-							</li>
-							<li class="navigation__li dropdown__li">
-								<a class="navigation__link" href="#">Вакансии</a>
-							</li>
-							<li class="navigation__li dropdown__li">
-								<a class="navigation__link" href="#">Отзывы</a>
-							</li>
-						</ul>
-					</li>
-
-					<li class="navigation__li">
-						<a class="navigation__link" href="#">Блог</a>
-					</li>
-
-					<li class="navigation__li dropdown dropdown_bottom">
-						<input class="dropdown__checkbox" type="checkbox" id="tools">
-						<label class="dropdown__lebel d-xl-none" for="tools"></label>
-						<a class="navigation__link" href="#">Инструменты</a>
-						<ul class="dropdown__content">
-							<li class="navigation__li dropdown__li">
-								<a class="navigation__link" href="#">SEO аудит сайта</a>
-							</li>
-						</ul>
-					</li>
-
-					<li class="navigation__li">
-						<a class="navigation__link" href="#">Контакты</a>
-					</li>
-
-				</ul>
-
-			</nav>
+				
 
 		</div>			
 
 	</header>
 
-	<main class="container">
+	<main>
+		<section class="page container-xl d-flex flex-column">
+
+			<div class="row flex-grow-1">
+
+				<div class="col order-md-2">
+					<div class="skew">
+						<div class="skew__wrap">
+							<div class="skew__content"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-7 d-flex flex-column justify-content-center pt-5">
+					<h1 class="h2 mb-4">
+						<span class="d-inline-block">Продвижение сайтов</span>
+						<span class="d-inline-block">в Тольятти и РФ</span>
+					</h1>
+
+					<p class="mb-4">Дорогой Клиент! Теперь Все будет отлично!</p>
+					<p class="mb-4">Клиенты из интернета теперь Ваши! У нас столько возможностей для этого:</p>
+					<ul class="list">
+						<li>Создание и продвижение сайтов.</li>
+						<li>Яндекс.Директ, Google.Adwords.</li>
+						<li>ВКонтакте, Instagram, Facebook.</li>
+						<li>Мобильные приложения.</li>
+					</ul>
+					<p class="h4 mb-4">
+						Разрешите нам утроить Ваших клиентов?
+					</p>
+					<p>
+						<button class="btn btn-primary">
+						Разрешить работу</button>
+					</p>
+				</div>
+
+			</div>
+			<div class="rov carousel">
+				
+			</div>
+
+		</section>
 			
 	</main>
 </body>

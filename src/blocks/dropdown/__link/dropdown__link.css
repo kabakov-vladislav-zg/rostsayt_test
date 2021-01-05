@@ -1,0 +1,3 @@
+.dropdown__checkbox:checked + .dropdown__lebel + .dropdown__link{
+	color: inherit;
+}

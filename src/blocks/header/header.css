@@ -1,6 +1,16 @@
 .header{
  padding: 1.375em .875em;
 }
+@media (min-width: 768px){
+	.header{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+
+		z-index: 100;
+	}
+}
 @media (min-width: 1200px){
 	.header{
 		padding: 1.5em 2em;
@@ -8,5 +18,7 @@
 		top: 0;
 		left: 0;
 		right: 0;
+
+		z-index: 100;
 	}
 }

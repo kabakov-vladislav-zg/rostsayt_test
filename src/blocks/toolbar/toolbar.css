@@ -1,3 +1,22 @@
 .toolbar{
+	position: relative;
+	top: -5.5em;
+	z-index: -1;
 	
+	background-color: white;
+}
+@media (min-width: 768px){
+	.toolbar{
+		
+	}
+}
+@media (min-width: 1200px){
+	.toolbar{
+		display: flex !important;
+		position: static;
+		top: -5.5em;
+		z-index: auto;
+		background-color: transparent;
+		flex-grow: 1;
+	}
 }

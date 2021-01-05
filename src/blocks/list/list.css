@@ -1,0 +1,6 @@
+.list ::marker{
+	color: var(--red);
+}
+.list > * + *{
+	margin-top: 1.2625em;
+}

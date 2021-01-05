@@ -4,4 +4,6 @@
 	overflow-x: hidden;
 	background: #fff;
 	color: #131313;
+
+	position: relative;
 }
