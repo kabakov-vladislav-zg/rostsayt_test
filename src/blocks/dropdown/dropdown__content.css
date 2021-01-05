@@ -1,7 +1,0 @@
-.dropdown__content {
-  display: none;
-  padding-left: 2.5em;
-}
-.dropdown__checkbox:checked + .dropdown__lebel + a + .dropdown__content{
-  display: block;
-}

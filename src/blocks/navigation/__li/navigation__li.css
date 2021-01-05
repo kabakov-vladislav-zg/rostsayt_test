@@ -1,4 +1,29 @@
 .navigation__li{
 	list-style: none;
 	white-space: nowrap;
+	display: block;
+	position: relative;
+}
+@media (min-width: 1200px){
+	.navigation > .navigation__li::before {
+		opacity: 0;
+		transition: .3s;
+
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+
+		content: '';
+		height: 4px;
+		width: 100%;
+		background-color: red;
+
+		z-index: 10;
+	}
+	.navigation > .navigation__li:hover.navigation__li::before{
+		display: block;
+		opacity: 1;
+		top: 120%;
+	}
 }

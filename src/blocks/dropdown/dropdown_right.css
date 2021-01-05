@@ -1,0 +1,8 @@
+@media (min-width: 1200px){
+	.dropdown_right::after {
+		content: '\02C3';
+	}
+	.dropdown:hover.dropdown_right::after {
+		transform: translateX(150%);
+	}
+}

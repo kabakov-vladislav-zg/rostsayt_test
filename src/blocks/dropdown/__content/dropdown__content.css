@@ -1,0 +1,30 @@
+.dropdown__content {
+  display: none;
+  padding-left: 2.5em;
+}
+.dropdown__checkbox:checked + .dropdown__lebel + a + .dropdown__content{
+  display: block;
+}
+
+
+@media (min-width: 1200px){
+	.dropdown__content {
+		position: absolute;
+		display: none;
+		padding-left: 1em;
+	}
+	.dropdown_bottom>.dropdown__content {
+		padding-top: 1.25em;
+
+		transform: translateX(-50%);
+		top: 100%;
+		left: 50%;
+	}
+	.dropdown_right>.dropdown__content {
+		top: 0;
+		left: 100%;
+	}
+	.dropdown:hover>.dropdown__content {
+		display: block;
+	}
+}

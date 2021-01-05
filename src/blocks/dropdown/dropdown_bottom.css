@@ -1,0 +1,8 @@
+@media (min-width: 1200px){
+	.dropdown_bottom::after {
+		content: url(img/arrow.svg);
+	}
+	.dropdown:hover.dropdown_bottom::after {
+		transform: translateY(100%);
+	}
+}

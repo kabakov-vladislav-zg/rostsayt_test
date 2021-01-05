@@ -1,0 +1,10 @@
+@media (min-width: 1200px){
+	.dropdown__li{
+		border: 1px solid var(--gray-light);
+		white-space: nowrap;
+		padding: .3125em .625em;
+	}
+	.dropdown__li + .dropdown__li{
+		border-top: none;
+	}
+}

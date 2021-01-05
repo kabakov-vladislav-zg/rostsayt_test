@@ -9,3 +9,20 @@
 
 	padding: .875em .4375em;
 }
+
+@media (min-width: 1200px) {
+	.navigation__link {
+		color: inherit;
+
+		display: inline;
+
+		border: none;
+
+		padding: .875em .4375em;
+
+		position: relative;
+	}
+	.navigation__link:hover{
+		color: red;
+	}
+}

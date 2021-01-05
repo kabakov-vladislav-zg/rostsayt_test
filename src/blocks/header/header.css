@@ -1,3 +1,12 @@
 .header{
  padding: 1.375em .875em;
 }
+@media (min-width: 1200px){
+	.header{
+		padding: 1.5em 2em;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+}
