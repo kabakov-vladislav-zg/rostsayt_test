@@ -1,34 +1,21 @@
 .header__toolbar{
-	margin: 0 -.875em 0 -.875em;
-	padding: 109px 1.75em 0 1.75em;
-	width: 100vw;
-	height: 100vh;
-	max-height: 1000px;
+	margin: -6.25em -.875em -1.375em -.875em;
 
+	z-index: -1;
+
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+.header__toolbar.show{
 	box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,.3);
 }
 
-.header__toolbar > *{
-	margin: 1.7em 0;
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
 	.header__toolbar{
-		display: flex;
 		margin: 0;
-		padding: 0;
-		width: auto;
-		box-shadow: none;
 
-		align-items: center;
-		justify-content: flex-end;
-		flex-grow: 1;
-		min-height: 0;
+		z-index: auto;
 
-		height: auto;
-	}
-
-	.header__toolbar > *{
-		margin: 0 2em;
+		flex-basis: auto;
 	}
 }

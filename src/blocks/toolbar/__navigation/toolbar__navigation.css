@@ -6,7 +6,6 @@
 	.toolbar__navigation{
 		width: auto;
 		order: -1;
-		margin: 0; 
 		flex-grow: 1;
 	}
 }

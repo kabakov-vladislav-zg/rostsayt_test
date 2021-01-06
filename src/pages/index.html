@@ -19,154 +19,155 @@
 
 	<header class="header navbar">
 
-		<a href="index.html" class="navbar-brand">
-			<img loading="lazy" src="https://tolyatti.rostsayt.ru/images/logo.svg" alt="РостСайт - Создание сайтов">
-		</a>
+			<a href="index.html">
+				<img loading="lazy" src="https://tolyatti.rostsayt.ru/images/logo.svg" alt="РостСайт - Создание сайтов">
+			</a>
 
-		<button class="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#headerToggleToolbar" aria-controls="headerToggleToolbar" aria-expanded="false" aria-label="Toggle navigation">
-			<span>
-				<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>
-			</span>
-		</button>
+			<button class="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#headerToggleToolbar" aria-controls="headerToggleToolbar" aria-expanded="false" aria-label="Toggle navigation">
+				<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'>
+					<path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/>
+				</svg>
+			</button>
 
-		<div class="collapse toolbar" id="headerToggleToolbar">
+			<div class="collapse header__toolbar d-xl-block" id="headerToggleToolbar">
 
-			<div class="header__toolbar">
-				<div class="toolbar__tool">
-					<button class="btn btn-link btn-sm">
-						<span class="toolbar__city">Тольятти</span>
-					</button>
-					<div class="toolbar__lang">
-						<button class="btn btn-link btn-sm" disabled>
-							<span>RU</span>
-						</button>
-						<span>|</span>
+				<div class="toolbar">
+
+					<div class="toolbar__tool">
 						<button class="btn btn-link btn-sm">
-							<span>EN-US</span>
+							<span class="toolbar__city">Тольятти</span>
+						</button>
+						<div class="toolbar__lang">
+							<button class="btn btn-link btn-sm" disabled>
+								<span>RU</span>
+							</button>
+							<span>|</span>
+							<button class="btn btn-link btn-sm">
+								<span>EN-US</span>
+							</button>
+						</div>
+					</div>
+
+					<div class="toolbar__tool toolbar__tel">
+						<a href="tel:88482942025" itemprop="telephone">+7 (8482) 94-20-25</a>
+						<button class="btn btn-primary btn-sm">
+							<span>Заказать звонок</span>
 						</button>
 					</div>
+
+					<nav class="toolbar__navigation">
+
+						<ul class="navigation">
+
+							<li class="navigation__li dropdown dropdown_bottom">
+								<input class="dropdown__checkbox" type="checkbox" id="services">
+								<label class="dropdown__lebel d-xl-none" for="services"></label>
+								<a class="navigation__link dropdown__link" href="#">Услуги</a>
+								<ul class="dropdown__content">
+									<li class="navigation__li dropdown dropdown__li dropdown_right">
+										<input class="dropdown__checkbox" type="checkbox" id="creating">
+										<label class="dropdown__lebel d-xl-none" for="creating"></label>
+										<a class="navigation__link dropdown__link" href="#">Создание сайтов</a>
+										<ul class="dropdown__content">
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Landing Page</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Интернет-магазин</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Сайты для заводов</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Сайты для мед. учреждений</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Сайты для жилых комплексов</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Сайты для ресторанов</a>
+											</li>
+										</ul>
+									</li>
+									<li class="navigation__li dropdown dropdown__li dropdown_right">
+										<input class="dropdown__checkbox" type="checkbox" id="smm">
+										<label class="dropdown__lebel d-xl-none" for="smm"></label>
+										<a class="navigation__link dropdown__link" href="#">Раскрутка сайтов</a>
+										<ul class="dropdown__content">
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">SEO оптимизация сайтов</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link dropdown__li" href="#">Контекстная реклама</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">SMM в социальных сетях</a>
+											</li>
+											<li class="navigation__li dropdown__li">
+												<a class="navigation__link" href="#">Оптимизация под Google Page Speed</a>
+											</li>
+										</ul>
+									</li>
+									<li class="navigation__li dropdown__li">
+										<a class="navigation__link" href="#">Техническая поддержка</a>
+									</li>
+									<li class="navigation__li dropdown__li">
+										<a class="navigation__link" href="#">Мобильные приложения</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="navigation__li">
+								<a class="navigation__link" href="#">Портфолио</a>
+							</li>
+
+							<li class="navigation__li dropdown dropdown_bottom">
+								<input class="dropdown__checkbox" type="checkbox" id="about">
+								<label class="dropdown__lebel d-xl-none" for="about"></label>
+								<a class="navigation__link dropdown__link" href="#">О нас</a>
+								<ul class="dropdown__content">
+									<li class="navigation__li dropdown__li">
+										<a class="navigation__link" href="#">Цены</a>
+									</li>
+									<li class="navigation__li dropdown__li">
+										<a class="navigation__link" href="#">Вакансии</a>
+									</li>
+									<li class="navigation__li dropdown__li">
+										<a class="navigation__link" href="#">Отзывы</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="navigation__li">
+								<a class="navigation__link" href="#">Блог</a>
+							</li>
+
+							<li class="navigation__li dropdown dropdown_bottom">
+								<input class="dropdown__checkbox" type="checkbox" id="tools">
+								<label class="dropdown__lebel d-xl-none" for="tools"></label>
+								<a class="navigation__link dropdown__link" href="#">Инструменты</a>
+								<ul class="dropdown__content">
+									<li class="navigation__li dropdown__li">
+										<a class="navigation__link" href="#">SEO аудит сайта</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="navigation__li">
+								<a class="navigation__link" href="#">Контакты</a>
+							</li>
+
+						</ul>
+
+					</nav>
 				</div>
-
-				<div class="toolbar__tool toolbar__tel">
-					<a href="tel:88482942025" itemprop="telephone">+7 (8482) 94-20-25</a>
-					<button class="btn btn-primary btn-sm">
-						<span>Заказать звонок</span>
-					</button>
-				</div>
-
-				<nav class="toolbar__navigation">
-
-					<ul class="navigation">
-
-						<li class="navigation__li dropdown dropdown_bottom">
-							<input class="dropdown__checkbox" type="checkbox" id="services">
-							<label class="dropdown__lebel d-xl-none" for="services"></label>
-							<a class="navigation__link dropdown__link" href="#">Услуги</a>
-							<ul class="dropdown__content">
-								<li class="navigation__li dropdown dropdown__li dropdown_right">
-									<input class="dropdown__checkbox" type="checkbox" id="creating">
-									<label class="dropdown__lebel d-xl-none" for="creating"></label>
-									<a class="navigation__link dropdown__link" href="#">Создание сайтов</a>
-									<ul class="dropdown__content">
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Landing Page</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Интернет-магазин</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Сайты для заводов</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Сайты для мед. учреждений</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Сайты для жилых комплексов</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Сайты для ресторанов</a>
-										</li>
-									</ul>
-								</li>
-								<li class="navigation__li dropdown dropdown__li dropdown_right">
-									<input class="dropdown__checkbox" type="checkbox" id="smm">
-									<label class="dropdown__lebel d-xl-none" for="smm"></label>
-									<a class="navigation__link dropdown__link" href="#">Раскрутка сайтов</a>
-									<ul class="dropdown__content">
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">SEO оптимизация сайтов</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link dropdown__li" href="#">Контекстная реклама</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">SMM в социальных сетях</a>
-										</li>
-										<li class="navigation__li dropdown__li">
-											<a class="navigation__link" href="#">Оптимизация под Google Page Speed</a>
-										</li>
-									</ul>
-								</li>
-								<li class="navigation__li dropdown__li">
-									<a class="navigation__link" href="#">Техническая поддержка</a>
-								</li>
-								<li class="navigation__li dropdown__li">
-									<a class="navigation__link" href="#">Мобильные приложения</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="navigation__li">
-							<a class="navigation__link" href="#">Портфолио</a>
-						</li>
-
-						<li class="navigation__li dropdown dropdown_bottom">
-							<input class="dropdown__checkbox" type="checkbox" id="about">
-							<label class="dropdown__lebel d-xl-none" for="about"></label>
-							<a class="navigation__link dropdown__link" href="#">О нас</a>
-							<ul class="dropdown__content">
-								<li class="navigation__li dropdown__li">
-									<a class="navigation__link" href="#">Цены</a>
-								</li>
-								<li class="navigation__li dropdown__li">
-									<a class="navigation__link" href="#">Вакансии</a>
-								</li>
-								<li class="navigation__li dropdown__li">
-									<a class="navigation__link" href="#">Отзывы</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="navigation__li">
-							<a class="navigation__link" href="#">Блог</a>
-						</li>
-
-						<li class="navigation__li dropdown dropdown_bottom">
-							<input class="dropdown__checkbox" type="checkbox" id="tools">
-							<label class="dropdown__lebel d-xl-none" for="tools"></label>
-							<a class="navigation__link dropdown__link" href="#">Инструменты</a>
-							<ul class="dropdown__content">
-								<li class="navigation__li dropdown__li">
-									<a class="navigation__link" href="#">SEO аудит сайта</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="navigation__li">
-							<a class="navigation__link" href="#">Контакты</a>
-						</li>
-
-					</ul>
-
-				</nav>
+					
 			</div>
-				
-
-		</div>			
 
 	</header>
 
-	<main>
+	<main class="main">
+
 		<section class="page container-xl d-flex flex-column">
 
 			<div class="row flex-grow-1">
