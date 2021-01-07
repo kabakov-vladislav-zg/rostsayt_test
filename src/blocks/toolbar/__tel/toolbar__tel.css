@@ -1,12 +1,13 @@
-.toolbar__tel > * + *{
+.toolbar__tel + *{
 	margin-top: 1em;
 }
 
 @media (min-width: 1200px){
-	.toolbar__tel > * + *{
+	.toolbar__tel + *{
 		margin-top: 0;
 	}
 	.toolbar__tel{
 		color: black;
+		font-weight: 700;
 	}
 }

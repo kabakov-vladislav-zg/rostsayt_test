@@ -1,6 +1,8 @@
 @media (min-width: 1200px){
 	.dropdown__content > .dropdown__li{
-		border: 1px solid var(--gray-light);
+		border: 1px solid var(--300);
+		background-color: white;
+
 		white-space: nowrap;
 		padding: .3125em .625em;
 	}
