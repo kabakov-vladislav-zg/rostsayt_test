@@ -1,4 +1,13 @@
-.skew__content{
+.skew__right-content{
+	position: relative;
+}
+
+
+
+
+.skew__right-content::after{
+	content: "";
+	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
@@ -10,7 +19,7 @@
 	right: 0;
 }
 @media (min-width: 768px){
-	.skew__content{
+	.skew__right-content::after{
 		background-position: left bottom;
 		left: 16%;
 		top: 6.25em;

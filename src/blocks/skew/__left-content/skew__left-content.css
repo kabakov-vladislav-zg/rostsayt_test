@@ -1,0 +1,31 @@
+.skew__left-content{
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 100%;
+}
+
+@media (min-width: 768px){
+	.skew__left-content{
+		float: right;
+
+		width: 100%;
+	}
+}
+
+@media (min-width: 860px){
+	.skew__left-content{
+		margin-right: -150px;
+
+		width: calc(100% + 150px);
+		max-width: 670px;
+	}
+}
+
+@media (min-width: 970px){
+	.skew__left-content{
+		margin-right: -200px;
+
+		width: calc(100% + 200px);
+		max-width: 770px;
+	}
+}
