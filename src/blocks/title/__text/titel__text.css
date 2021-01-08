@@ -1,5 +1,6 @@
 .titel__text{
 	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 @media (min-width: 768px){

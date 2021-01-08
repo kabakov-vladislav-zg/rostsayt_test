@@ -1,0 +1,10 @@
+.toolbar__item{
+	margin-top: 1.55em;
+}
+ 
+@media (min-width: 1200px){
+	.toolbar__item{
+		margin-top: 0;
+		margin-left: 2em;
+	}
+}

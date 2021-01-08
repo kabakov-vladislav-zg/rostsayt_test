@@ -2,16 +2,8 @@
 	background-color: white;
 
 	padding: 7.75em 1.75em 3em 1.75em;
-}
-
-.toolbar > * {
-	margin-top: 1.55em;
-}
-@media (min-width: 768px){
-	.toolbar{
-		
-	}
-}
+} 
+ 
 @media (min-width: 1200px){
 	.toolbar{
 		display: flex;
@@ -21,10 +13,5 @@
 		background-color: transparent;
 
 		padding: 0;
-	}
-
-	.toolbar > * {
-		margin-top: 0;
-		margin-left: 2em;
 	}
 }

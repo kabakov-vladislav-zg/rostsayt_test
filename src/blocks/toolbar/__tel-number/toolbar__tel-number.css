@@ -1,0 +1,6 @@
+@media (min-width: 1200px){
+	.toolbar__tel-number{
+		color: black;
+		font-weight: 700;
+	}
+}

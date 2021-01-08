@@ -1,0 +1,11 @@
+.skew__col{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+@media (min-width: 768px){
+	.skew__col{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
