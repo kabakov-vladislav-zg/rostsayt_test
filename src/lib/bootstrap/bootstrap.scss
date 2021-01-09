@@ -67,3 +67,7 @@ $link-hover-decoration: none;
     --#{$color}: #{$value};
   }
 }
+
+.btn-link{
+	vertical-align: baseline;
+}

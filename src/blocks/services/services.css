@@ -1,0 +1,11 @@
+.services{
+	margin-bottom: 1.875em;
+
+	text-align: center;
+}
+
+@media (min-width: 576px){
+	.services{
+		text-align: left;
+	}
+}

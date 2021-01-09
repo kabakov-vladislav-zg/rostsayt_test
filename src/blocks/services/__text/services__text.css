@@ -1,0 +1,5 @@
+@media (min-width: 992px){
+	.services__text{
+		flex-basis: 35%;
+	}
+}

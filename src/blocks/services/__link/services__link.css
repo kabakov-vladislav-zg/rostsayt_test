@@ -1,0 +1,26 @@
+.services__link{
+
+}
+@media (min-width: 576px){
+	.services__link{
+		flex-basis: 33.3333%;
+	}
+}
+
+@media (min-width: 768px){
+	.services__link{
+		flex-basis: 50%;
+	}
+}
+
+@media (min-width: 992px){
+	.services__link{
+		flex-basis: 0;
+	}
+}
+
+@media (min-width: 1200px){
+	.services__link{
+		flex-basis: 33.333%;
+	}
+}
