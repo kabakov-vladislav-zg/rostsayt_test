@@ -3,6 +3,11 @@
 	height: 50vh;
 	position: relative;
 }
+.skew__right-background > *{
+	transform-origin: 50% 100% 0;
+	transform: skewX(22.5deg);
+}
+
 
 @media (min-width: 768px){
 	.skew__right-background{
@@ -24,8 +29,6 @@
 
 
 .skew__right-background::after{
-	content: "";
-
 	background-position: left center;
 	background-repeat: no-repeat;
 	background-size: cover;

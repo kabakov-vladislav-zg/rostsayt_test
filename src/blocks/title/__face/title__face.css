@@ -1,3 +1,4 @@
 .title__face::after{
+	content: "";
 	background-image: url(img/man_1.png);
 }

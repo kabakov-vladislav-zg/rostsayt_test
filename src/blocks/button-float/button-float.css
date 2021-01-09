@@ -1,0 +1,26 @@
+.button-float{
+  width: 6.25em;
+  height: 6.25em;
+  border-radius: 50%;
+  border: none;
+  
+  position: relative;
+  
+  background-color: rgb(255, 0, 0);
+
+}
+
+.button-float::before{
+  content: "";
+  position: absolute;
+  
+  pointer-events: none;
+  
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  
+  border-radius: 50%;
+  
+  z-index: -1;
+}

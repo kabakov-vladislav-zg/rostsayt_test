@@ -1,10 +1,23 @@
-.titel__text{
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-
 @media (min-width: 768px){
 	.titel__text{
 		padding-top: 6.25em;
+	}
+}
+
+@media (min-width: 860px){
+	.titel__text{
+		margin-right: -150px;
+
+		width: calc(100% + 150px);
+		max-width: 670px;
+	}
+}
+
+@media (min-width: 970px){
+	.titel__text{
+		margin-right: -200px;
+
+		width: calc(100% + 200px);
+		max-width: 770px;
 	}
 }

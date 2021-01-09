@@ -1,13 +1,13 @@
 .skew__right-content{
 	position: relative;
+
+	overflow: hidden;
 }
 
 
 
 
 .skew__right-content::after{
-	content: "";
-	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;

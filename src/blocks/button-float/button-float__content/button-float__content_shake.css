@@ -1,0 +1,27 @@
+.button-float:hover.button-float__content_shake::after{
+  animation: shake 1.4s linear infinite;
+}
+
+@keyframes shake {
+  0% { transform: rotateZ(45deg); }
+  
+  10% { transform: rotateZ(-45deg); }
+  
+  20% { transform: rotateZ(36deg); }
+  
+  30% { transform: rotateZ(-36deg); }
+  
+  40% { transform: rotateZ(27deg); }
+  
+  50% { transform: rotateZ(-27deg); }
+  
+  60% { transform: rotateZ(18deg); }
+  
+  70% { transform: rotateZ(-18deg); }
+  
+  80% { transform: rotateZ(9deg); }
+  
+  90% { transform: rotateZ(-9deg); }
+  
+  100% { transform: rotateZ(0); }
+}

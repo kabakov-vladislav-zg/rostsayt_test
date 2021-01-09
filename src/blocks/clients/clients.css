@@ -1,0 +1,11 @@
+.clients{
+	filter: grayscale(100%);
+
+	opacity: .4;
+}
+
+.clients:hover{
+	filter: grayscale(0);
+
+	opacity: 1;
+}

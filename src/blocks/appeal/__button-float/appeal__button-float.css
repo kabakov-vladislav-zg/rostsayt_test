@@ -1,0 +1,22 @@
+.appeal__button-float{
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+@media (min-width: 768px){
+	.appeal__button-float{
+		top: 50%;
+		left: 10em;
+	}
+}
+
+
+.appeal__button-float > .button-float{
+	font-size: 1.5em;
+	box-shadow: 0 0 1.25em rgba(245, 58, 58, 0.85);
+}
+.appeal__button-float > .button-float::after{
+  background: url(https://rostsayt.ru/images/fa/play-solid.svg) center no-repeat;
+  background-size: 50%;
+}
