@@ -16,6 +16,9 @@
 
 </head>
 <body class="body">
+	<span class="body__button-float position-fixed">
+	  <button class="button-float button-float_pulse_single button-float__content"></button>
+	</span>
 
 	<header class="header navbar">
 
@@ -707,79 +710,666 @@
 				</div>
 			</div>
 
-			<div class="container-xl">
+			<div class="container-xl my-5">
 				<div class="row row-cols-1 row-cols-md-3">
 					<div class="fighter fighter_bad col d-none d-md-block">
-						<div>
-							<div class="py-3">
-								Не проведен аудит среди конкурентов
+						<div class="fighter__feature">
+							<div class="mb-5">
+								<div class="py-1">
+									Не проведен аудит среди конкурентов
+								</div>
+								<div class="line"></div>
 							</div>
-							<div class="line"></div>
-						</div>
 
-						<div>
-							<div class="py-3">
-								Реклама едва окупает себя
+							<div class="mb-5">
+								<div class="py-1">
+									Реклама едва окупает себя
+								</div>
+								<div class="line"></div>
 							</div>
-							<div class="line"></div>
-						</div>
 
-						<div>
-							<div class="py-3">
-								Сайт без мобильной версии
+							<div class="mb-5">
+								<div class="py-1">
+									Сайт без мобильной версии
+								</div>
+								<div class="line"></div>
 							</div>
-							<div class="line"></div>
-						</div>
 
-						<div>
-							<div class="py-3">
-								Соц. сети не ведутся
+							<div class="mb-5">
+								<div class="py-1">
+									Соц. сети не ведутся
+								</div>
+								<div class="line"></div>
 							</div>
-							<div class="line"></div>
 						</div>
 					</div>
 
-					<div class="col"></div>
-
-					<div class="fighter fighter_good col d-none d-md-block">
-						<div>
-							<div class="py-3">
-								Сайт яркий и запоминается!
-							</div>
-							<div class="line line_reverse"></div>
+					<div class="col container-fluid">
+						<div class="row no-gutters">
+							<div class="col-3 line line_curved line_reverse"></div>
+							<div class="col-6 text-center">Введите ваши показатели</div>
+							<div class="col-3 line line_curved"></div>
 						</div>
-
-						<div>
-							<div class="py-3">
-								Количество обращений напрягает отдел продаж
+						<div class="row no-gutters mt-3">
+							<div class="col-3 text-left">
+								<div class="mt-3">100</div>
+								<div class="mt-3">5</div>
+								<div class="mt-3">1</div>
+								<div class="mt-3">0</div>
+								<div class="mt-3">0</div>
+								<div class="mt-3">1000</div>
+								<div class="mt-3">5500</div>
 							</div>
-							<div class="line line_reverse"></div>
+
+							<div class="col-6 text-center">
+								<div class="mt-3">Посетители</div>
+								<div class="mt-3">Клиентов</div>
+								<div class="mt-3">Допродажи</div>
+								<div class="mt-3">Пришло друзей</div>
+								<div class="mt-3">Вернулось</div>
+								<div class="mt-3">Средний чек</div>
+								<div class="mt-3">Прибыль</div>
+							</div>
+
+							<div class="col-3 text-right d-flex flex-column align-items-end">
+								<div class="mt-3">130</div>
+								<div class="mt-3">7</div>
+								<div class="mt-3">2</div>
+								<div class="mt-3">2</div>
+								<div class="mt-3">2</div>
+								<div class="mt-3">1300</div>
+								<div class="mt-3">7150</div>
+							</div>
 						</div>
+					</div>
 
-						<div>
-							<div class="py-3">
-								Реклама дотягивается до всех клиентов
+					<div class="fighter fighter_good col d-none d-md-block text-right">
+						<div class="fighter__feature">
+							<div class="mb-4">
+								<div class="py-1">
+									Сайт яркий и запоминается!
+								</div>
+								<div class="line line_reverse"></div>
 							</div>
-							<div class="line line_reverse"></div>
-						</div>
 
-						<div>
-							<div class="py-3">
-								Бизнес легко масштабировать в другие города
+							<div class="mb-4">
+								<div class="py-1">
+									Количество обращений напрягает отдел продаж
+								</div>
+								<div class="line line_reverse"></div>
 							</div>
-							<div class="line line_reverse"></div>
-						</div>
 
-						<div>
-							<div class="py-3">
-								Конкуренты несут убытки
+							<div class="mb-4">
+								<div class="py-1">
+									Реклама дотягивается до всех клиентов
+								</div>
+								<div class="line line_reverse"></div>
 							</div>
-							<div class="line line_reverse"></div>
+
+							<div class="mb-4">
+								<div class="py-1">
+									Бизнес легко масштабировать в другие города
+								</div>
+								<div class="line line_reverse"></div>
+							</div>
+
+							<div class="mb-4">
+								<div class="py-1">
+									Конкуренты несут убытки
+								</div>
+								<div class="line line_reverse"></div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
+		<section class="text-center py-5 steps">
+			<h2 class="h1 mb-5">Этапы работы над проектом</h2>
+
+			<div class="container-xl">
+				<div class="row row-cols-1 row-cols-sm-3 mb-sm-5">
+					<div class="col steps__arrow">
+						<p>
+							<img loading="lazy" src="/img/s1.webp" alt="Шаг 1">
+						</p>
+						<p>
+							Мы Вам<br>перезвоним
+						</p>
+						<p>
+							<button class="btn btn-primary">
+								Заказать звонок
+							</button>
+						</p>
+					</div>
+
+					<div class="col steps__arrow">
+						<p>
+							<img loading="lazy" src="/img/s2.webp" alt="Шаг 2">
+						</p>
+						<p>Проанализируем<br>конкурентов</p>
+					</div>
+
+					<div class="col">
+						<p>
+							<img loading="lazy" src="/img/s3.webp" alt="Шаг 3">
+						</p>
+						<p>Заключим<br>договор</p>
+					</div>
+				</div>
+
+				<div class="row row-cols-1 row-cols-sm-3 pt-sm-5">
+					<div class="col order-md-3 steps__arrow steps__arrow_tobottom">
+						<p>
+							<img loading="lazy" src="/img/s4.webp" alt="Шаг 4">
+						</p>
+						<p>Разработаем<br>дизайн проекта</p>
+					</div>
+
+					<div class="col-sm-4 order-md-2 steps__arrow steps__arrow_reverse">
+						<p>
+							<img loading="lazy" src="/img/s5.webp" alt="Шаг 5">
+						</p>
+						<p>Презентуем<br>проект</p>
+					</div>
+
+					<div class="col-sm-4 order-md-1 steps__arrow steps__arrow_reverse">
+						<p class="position-relative">
+							<img class="steps__rocket" loading="lazy" src="/img/s6.webp" alt="Шаг 6">
+							<img loading="lazy" src="/img/s6.1.webp" alt="Шаг 6">
+						</p>
+						<p>Запустим<br>проект</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-xl">
+			<h2>
+				Продвижение сайтов Тольятти
+			</h2>
+
+			<p>
+				Продвижение сайтов — это комплекс мероприятий, направленных на постоянное улучшение качества сайта, с целью улучшения позиций в поисковых выдачах Яндекс и Google. Каждый коммерческий web-ресурс, как самостоятельный источник рекламы, должен приносить лидов (клиентов), а естественный источник трафика (посещаемости сайта) — поисковые системы. Если грамотно оптимизировать и настроить сайт, заниматься его развитием и улучшением, то со временем он начнет занимать лидирующие позиции в поисковой выдаче.
+			</p>
+
+			<h4>
+				Технический процесс продвижения сайта
+			</h4>
+
+			<p>
+				Услуга по SEO оптимизации сайта не имеет гарантий, т.к. ни одна WEB-студия не влияет на поисковые алгоритмы. Единственное, что у нас есть:
+			</p>
+
+			<ol class="list">
+				<li>
+					Рекомендательная документация по оптимизации сайтов от Яндекс и Google.
+				</li>
+				<li>
+					Личные кабинеты WebMaster’ов (Яндекс, Google и Mail) для отслеживания результатов сканирования.
+				</li>
+				<li>
+					Сравнительный анализ между продвигаемым и конкурирующими сайтами.
+				</li>
+				<li>
+					Понимание работы алгоритмов поисковых роботов.
+				</li>
+			</ol>
+
+			<p>
+				Как правило для продвижения сайта необходимо выполнить:
+			</p>
+
+			<ol class="list">
+				<li>
+					Провести анализ по конкурентам по максимальному числу различных показателей.
+				</li>
+				<li>
+					Собрать семантическое ядро запросов для понимания развития проекта.
+				</li>
+				<li>
+					Составить структуру сайта и распределить нужные запросы под необходимые страницы.
+				</li>
+				<li>
+					Создать требуемые страницы и заполнить заголовки и описание.
+				</li>
+				<li>
+					Подготовить и разместить описательный текст на каждую страницу.
+				</li>
+				<li>
+					Зарегистрировать и настроить сайт в системах аналитики.
+				</li>
+				<li>
+					Зарегистрировать и исправить ошибки в WebMaster’ах, а также получить максимально заполненный сниппет (карточку в поиске).
+				</li>
+				<li>
+					Отладить работу сервера. Сайт должен быть доступен всегда и выдерживать очень высокую нагрузку по трафику.
+				</li>
+				<li>
+					Исправить верстку сайта для достижения максимального удобства использования как для ПК, так и для смартфонов.
+				</li>
+			</ol>
+
+			<p>
+				После достижения желаемого результата работы над сайтом продолжаются:
+			</p>
+
+			<ul class="list">
+				<li>
+					Создаются и развиваются узкотематические направления.
+				</li>
+				<li>
+					Наполняются разделы для последующего вовлечения посетителей.
+				</li>
+				<li>
+					Проверяются и улучшаются все технические показатели.
+				</li>
+			</ul>
+
+			<h4>
+				Преимущество и экономическое обоснование SEO продвижения
+			</h4>
+
+			<p>
+				Данная услуга сложная, долгая и требует внимания различных специалистов, но продолжает пользоваться огромным спросом, и это не случайно. Для сравнения возьмем две услуги: контекстно-медийную рекламу и SEO продвижение.
+			</p>
+
+			<p>
+				Контекстная реклама позволяет получить быстрый трафик с оплатой за переход на сайт. SEO продвижение долгий процесс по выводу ключевого запроса в ТОП поисковой выдачи, но клики (переходы по ссылке) - бесплатны. 
+			</p>
+
+			<p>
+				Предлагаем для анализа бюджета контекстной рекламной кампании взять примерную рекламную компанию, где:
+			</p>
+
+			<ul class="list">
+				<li>
+					Бюджет 240 000 руб. / год.
+				</li>
+				<li>
+					Средняя цена лида 200 руб.
+				</li>
+				<li>
+					Конверсия сайта 1%.
+				</li>
+				<li>
+					240 лидов в год.
+				</li>
+			</ul>
+
+			<p>
+				В стоимость SEO кампании входит оплата услуг специалистов, задача которых вывести 10 ключевых запросов в ТОП-10 за 3 месяца. Средняя цена по городу Тольятти 180 000 руб в год. Запрос при хорошем продвижении находится в ТОПе выдачи несколько лет. В нашей практике есть примеры, где запрос находится в ТОП-1 уже более 10 лет. 
+			</p>
+
+			<p>
+				Представим ситуацию, что SEO студия продвигала сайт 1 год, и трафик с поисковых систем совпал с трафиком контекстной рекламы, после чего от услуг SEO студии отказались. Приведем сводные таблицы, где наглядно показана выгода в долгосрочной перспективе:
+			</p>
+
+			<p class="text-center">
+				Контекстная реклама
+			</p>
+
+			<table class="table table-sm table-hover">
+				<thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col">1 год</th>
+						<th scope="col">2 год</th>
+						<th scope="col">3 год</th>
+						<th scope="col">4 год</th>
+						<th scope="col">5 год</th>
+						<th scope="col">Итого</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td scope="row">Расход</td>
+						<td>240 000</td>
+						<td>240 000</td>
+						<td>240 000</td>
+						<td>240 000</td>
+						<td>240 000</td>
+						<td>1 200 000</td>
+					</tr>
+					<tr>
+						<td scope="row">Лидов</td>
+						<td>240</td>
+						<td>240</td>
+						<td>240</td>
+						<td>240</td>
+						<td>240</td>
+						<td>1 200</td>
+					</tr>
+					<tr>
+						<td scope="row">Цена Лида</td>
+						<td>200</td>
+						<td>200</td>
+						<td>200</td>
+						<td>200</td>
+						<td>200</td>
+						<td>ср. цена 200</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p class="text-center">
+				SEO реклама с остановкой через год работы
+			</p>
+
+			<table class="table table-sm table-hover">
+				<thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col">1 год</th>
+						<th scope="col">2 год</th>
+						<th scope="col">3 год</th>
+						<th scope="col">4 год</th>
+						<th scope="col">5 год</th>
+						<th scope="col">Итого</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td scope="row">Расход</td>
+						<td>180 000</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>180 000</td>
+					</tr>
+					<tr>
+						<td scope="row">Лидов</td>
+						<td>120</td>
+						<td>240</td>
+						<td>240</td>
+						<td>240</td>
+						<td>240</td>
+						<td>1 080</td>
+					</tr>
+					<tr>
+						<td scope="row">Цена Лида</td>
+						<td>1 500</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>ср. цена 166,67</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>
+				Ситуация взята гипотетическая, обосновывающая выгоду SEO продвижения в долгосрочной перспективе. Пример показывает, что цена лида стремится к нулю, т.к. стоимость переходов бесплатна. Также мы рекомендуем продолжать работу по SEO непрерывно. Существуют факторы, не зависящие от продвигаемого сайта, постоянное улучшение позволит выйти на окупаемость Интернет-проекта и достигнуть желаемых результатов быстрее.
+			</p>
+
+			<h4>
+				Услуги по продвижению сайта в Тольятти
+			</h4>
+
+			<p>
+				Наша студия непрерывно занимается созданием и продвижением сайтов с 2012 года. За это время мы накопили огромный опыт по поднятию сайтов в поисковиках и предлагаем данную услугу “под ключ”. Заказывая услугу по SEO у нас, Вы получаете штат сотрудников:
+			</p>
+
+			<ul class="list">
+				<li>
+					Интернет-маркетолога, который изучит конкурентов и составит рабочую стратегию по развитию Интернет-проекта.
+				</li>
+				<li>
+					SEO специалиста, который составит семантическое ядро, разработает и внедрит структуру сайта, проконтролирует наполнение сайта, разберется со всеми тонкостями проекта.
+				</li>
+				<li>
+					Web-дизайнера, который улучшит удобства сайта и разработает классные графические решения.
+				</li>
+				<li>
+					SEO программиста, который исправит все возможные ошибки сайта.
+				</li>
+				<li>
+					Системного администратора, который выжмет из сервера и CMS все соки для получения максимальных показателей.
+				</li>
+				<li>
+					Проект-менеджера, который всегда в курсе событий, ответственен и доступен. Отвечает на все телефоны, социальные сети и мессенджеры.
+				</li>
+			</ul>
+
+			<p>
+				Мы постарались сделать стоимость услуги максимально комфортной для любого бизнеса. Наши цены слегка выше стоимости одного частного Web-мастера в Тольятти и не превышают заработной платы штатных сотрудников. Мы оптимизировали технический процесс, внедрили возможные шаблонные решения, наладили машинную работу, закупили расширенные пакеты SEO инструментов и обучили полный штат собственных специалистов. Таким образом, заказывая услугу у нас, вы не только экономите деньги, но и получаете максимально компетентных специалистов для развития Вашего бизнеса.
+			</p>
+
+			<p>
+				Мы работаем на репутацию. Наша задача, чтобы Ваш бизнес рос. Мы хотим, чтобы наши услуги окупились и приносили Вам доход, в несколько раз превышающий расходы на рекламу. Таким образом, оказывая качественные услуги, мы хотим посадить зерно долгосрочного и взаимовыгодного сотрудничества между нашими компаниями, быть надежными партнерами и расти вместе с Вами!
+			</p>
+		</section>
+
+		<section>
+			<h2 class="h1 text-center">
+				Поможем с комплексным маркетингом
+			</h2>
+			<div class="container-xl">
+				<form class="row row-cols-1 row-cols-md-2">
+					<div class="col">
+						<p>
+							Шаг 1
+						</p>
+
+						<p class="h4">
+							Отметьте <span class="text-primary">слабые стороны</span> вашей компании:
+						</p>
+
+						<ul class="list-group mt-5">
+							<li class="list-group-item">
+								<label><input type="checkbox" name="clients"> Поток клиентов</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="marketing"> Отдел маркетинга</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="website"> Сайт</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="audit"> Аудит сайта</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="adwords"> Директ / AdWords</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="SEO"> SEO</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="smm"> SMM</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="targeting"> Таргетинг</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="mailmarketing"> E-mail маркетинг</label>
+							</li>
+							<li class="list-group-item">
+								<label><input type="checkbox" name="formstyle"> Фирменный стиль (Найминг, логотип, прочее)</label>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col">
+						<div class="card">
+							<div class="card-body">
+							<p>
+								Шаг 2
+							</p>
+							<p class="h4">
+								Оставьте свои контакты
+							</p>
+							<div class="form-group">
+								<label for="mod_help_name">Имя</label>
+								<input id="mod_help_name" class="form-control" name="Имя" type="text" placeholder="Имя">
+							</div>
+							<div class="form-group">
+								<label for="mod_help_phone">Телефон <span class="text-primary">(обязательно)</span></label>
+								<input id="mod_help_phone" class="form-control" name="Телефон" required="required" type="text" placeholder="Телефон">
+							</div>
+							<div class="form-group">
+								<label for="mod_help_email">E-mail <span class="text-primary">(обязательно)</span></label>
+								<input id="mod_help_email" class="form-control" name="E-mail" required="required" type="email" placeholder="E-mail">
+							</div>
+							<div class="form-group">
+								<label for="mod_help_site">Сайт</label>
+								<input id="mod_help_site" class="form-control" name="Сайт" type="text" placeholder="Сайт">
+							</div>
+							<div class="form-group">
+								<label for="mod_help_comment">Комментарий</label>
+								<textarea id="mod_help_comment" class="form-control" name="Комментарий" placeholder="Комментарий"></textarea>
+							</div>
+							<div class="form-group">
+								<button class="btn btn-danger btn-block" type="submit">
+									Получить помощь
+								</button>
+							</div>
+							<div class="form-group">
+								<div class="form-check">
+									<input id="mod_help_check" class="form-check-input" checked="checked" required="required" type="checkbox">
+									<label class="form-check-label" for="mod_help_check">Я согласен на обработку моих персональных данных</label>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="container-xl">
+			<h2 class="h1 px-5 text-center">
+				Дорогой Клиент, гарантируем Вам, теперь <span class="text-primary">ВСЕ СТАНЕТ ОТЛИЧНО</span>. Заявки пойдут вверх, как и доходы. Пора начинать!
+			</h2>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-end pb-5 afterword">
+				<div class="col my-5 afterword__text">
+					<p>
+						Наша задача — Рост Вашего бизнеса в Тольятти и РФ. Если мы не можем, Вам помочь — мы открыто об этом скажем и посоветуем, кто Вам поможет. Мы не беремся за работу если понимаем, что клиенту это не выгодно.
+					</p>
+
+					<p>
+						Наш интерес — Рост оборотов Вашей компании, за ними вырастет и бюджет на наши услуги, мы можем удвоить усилия или добавить дополнительный вид рекламы.
+					</p>
+
+					<p class="text-right">
+						Ваш бизнес пойдет в РОСТ!
+					</p>
+				</div>
+			</div>
+		</section>
 	</main>
+
+	<footer class="container-xl footer py-5">
+		<div class="row row-cols-1 row-cols-sm-3">
+			<div class="col">
+				<div class="h4">
+					Услуги
+				</div>
+				<ul class="list-group">
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="#">Создание сайтов</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/raskrutka-sajtov">Раскрутка сайтов</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/tekhnicheskaya-podderzhka">Техническая поддержка</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/mobilnye-prilozheniya">Мобильные приложения</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/quiz-po-razrabotke-sajta">Quiz по разработке сайта</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/seo-audit-sajta">SEO аудит сайта</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col">
+				<div class="h4">
+					Студия
+				</div>
+
+				<ul class="list-group">
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="#">Цены</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/raskrutka-sajtov">Вакансии</a>
+					</li>
+					<li class="list-group-item p-0">
+						<a class="footer__link" href="/tekhnicheskaya-podderzhka">Отзывы</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col">
+				<div class="h4">
+					РостСайт – Тольятти
+				</div>
+
+				<p>
+					<a href="tel:88482942025">+7 (8482) 94-20-25</a>
+				</p>
+
+				<address>
+					445044, Тольятти, Южное шоссе, 24А, «Премьер Центр», офис 27
+				</address>
+
+				<p>
+					<a href="mailto:">info@rostsayt.ru</a>
+				</p>
+
+				<p>
+					<button class="btn btn-primary">
+						Заказать звонок
+					</button>
+				</p>
+			</div>
+		</div>
+
+		<div class="row row-cols-1 row-cols-sm-3 my-5">
+			<div class="col">
+				<a class="btn btn-outline-primary w-100" href="#">vkontakte</a>
+			</div>
+
+			<div class="col">
+				<a class="btn btn-outline-primary w-100" href="#">facebook</a>
+			</div>
+
+			<div class="col">
+				<a class="btn btn-outline-primary w-100" href="#">instagram</a>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="d-flex justify-content-center">
+			<button class="btn btn-link py-0 px-1" disabled>
+				<span>RU</span>
+			</button>
+			<span>|</span>
+			<button class="btn btn-link py-0 px-1">
+				<span>EN-US</span>
+			</button>
+		</div>
+
+		<div class="row text-secondary pb-5">
+			<div class="col p-2">
+				<small>© 2011-2021 РостСайт - <a href="#">Создание сайтов</a> и <a href="#">продвижение сайтов</a>.<br>Все права защищены.</small>
+			</div>
+
+			<div class="col p-2">
+				<small>Сайт является средством массовой информации. 0+ При использовании материалов указание источника РостСайт и гиперссылка на <a href="#">https://rostsayt.ru/</a> - обязательны!</small>
+			</div>
+
+			<div class="col p-2">
+				<small>Заполняя формы на нашем сайте, Вы соглашаетесь с <a href="#">политикой конфиденциальности персональных данных</a>.</small>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.fighter_bad{
+	background: url(img/item1.webp) right no-repeat;
+	background-size: auto 85%;
+
+	padding-bottom: 5em;
+}
+
+@media (min-width: 992px){
+	.fighter_bad{
+		padding-right: 8em;
+	}
+}

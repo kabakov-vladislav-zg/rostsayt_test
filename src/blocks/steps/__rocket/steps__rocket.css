@@ -1,0 +1,12 @@
+.steps__rocket{
+	position: absolute;
+	transform: translate(85%, -95%);
+
+	animation: fly 2s ease-in-out infinite;
+}
+
+@keyframes fly{
+	0%{ transform: translate(85%, -95%); }
+	50%{ transform: translate(75%, -105%); }
+	100%{ transform: translate(85%, -95%); }
+}

@@ -1,0 +1,10 @@
+.fighter_good{
+	background: url(img/item2.webp) left no-repeat;
+	background-size: auto 100%;
+}
+
+@media (min-width: 992px){
+	.fighter_good{
+		padding-left: 5em;
+	}
+}

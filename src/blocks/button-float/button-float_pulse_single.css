@@ -1,0 +1,18 @@
+.button-float_pulse_single::before{
+  background-color: rgba(255, 0, 0, .18);
+  
+  animation: pulse_single 1s linear infinite;
+}
+
+@keyframes pulse_single {
+  from {
+    box-shadow: 0 0 0 3.125em rgba(255, 0, 0, .15);
+    width: 1px;
+    height: 1px;
+    }
+  to {
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, .15);
+    width: 9.375em;
+    height: 9.375em;
+    }
+}

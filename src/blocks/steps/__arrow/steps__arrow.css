@@ -1,0 +1,14 @@
+.steps__arrow{
+	position: relative;
+}
+
+@media (min-width: 850px){
+	.steps__arrow::before{
+		content: url(img/line01.webp);
+		position: absolute;
+		top: 0;
+		transform: translateX(50%);
+		right: 0;
+	}
+}
+	

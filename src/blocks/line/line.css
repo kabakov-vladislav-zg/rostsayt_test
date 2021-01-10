@@ -1,6 +1,9 @@
 .line{
-	height: 0;
-	border-bottom: 1px solid var(--primary);
+	border-style: solid;
+	border-color: var(--primary);
+	border-width: 1px;
+
+	border-bottom: none;
 
 	position: relative;
 }
@@ -15,7 +18,7 @@
 	border-radius: 50%;
 
 	position: absolute;
-	transform: translateY(50%);
+	transform: translate(50%, 50%);
 	right: 0;
 	bottom: 0;
 }

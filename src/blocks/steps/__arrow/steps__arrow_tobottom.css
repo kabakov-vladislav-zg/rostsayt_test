@@ -1,0 +1,6 @@
+.steps__arrow_tobottom::before{
+	transform: translate(-50%, -50%) rotate(90deg) !important;
+	left: 10em;
+
+	transform-origin: right center;
+}

@@ -1,0 +1,11 @@
+.body__button-float{
+	right: 2em;
+	bottom: 2em;
+
+	z-index: 1000;
+}
+
+.body__button-float > .button-float::after{
+  background: url(https://rostsayt.ru/images/fa/phone-solid.svg) center no-repeat;
+  background-size: 50%;
+}

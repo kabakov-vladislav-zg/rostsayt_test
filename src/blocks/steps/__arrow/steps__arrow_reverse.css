@@ -1,0 +1,3 @@
+.steps__arrow_reverse::before{
+	transform: translateX(50%) rotateY(180deg) !important;
+}
