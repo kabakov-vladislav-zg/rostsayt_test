@@ -1,0 +1,5 @@
+@media (min-width: 992px){
+	.problem__list_long{
+		width: calc(100% - .6em);
+	}
+}

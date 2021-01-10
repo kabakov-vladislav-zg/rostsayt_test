@@ -1,0 +1,7 @@
+.box__arm{
+	background-image: linear-gradient(to top right, black 50%, white 50%);
+	background-position: left center;
+	background-size: cover;
+
+	position: relative;
+}

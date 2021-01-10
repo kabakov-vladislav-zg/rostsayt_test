@@ -1,0 +1,6 @@
+.min-form__background::after{
+	content: "";
+	background-image: url(img/city_footer.webp);
+	background-size: auto 160% !important;
+	background-position: 20% 30% !important;
+}

@@ -1,0 +1,5 @@
+@media (min-width: 768px){
+	.min-form__form{
+		max-width: 75%;
+	}
+}

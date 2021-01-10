@@ -1,0 +1,17 @@
+.portfolio__card{
+	max-height: 18.75em;
+
+	position: relative;
+
+	background-color: rgba(0,0,0,.6);
+
+	color: white !important;
+}
+@media (min-width: 1200px){
+	.portfolio__card{
+		max-height: 100%;
+	}
+	.portfolio__card:hover > .portfolio__label{
+		opacity: 1;
+	}
+}

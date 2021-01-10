@@ -9,9 +9,5 @@
 @media (min-width: 768px){
 	.skew__left-content{
 		float: right;
-
-		width: 100%;
-
-		max-width: 570px;
 	}
 } 

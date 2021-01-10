@@ -1,0 +1,21 @@
+.box{
+	background-color: black;
+	position: relative;
+}
+@media (min-width: 768px){
+	.box{
+		background-image: linear-gradient(to right, black 50%, white 50%);
+	}
+	.box::after{
+		content: '';
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 50%;
+
+		background: url(img/item.webp) right no-repeat;
+		background-size: contain;
+	}
+}

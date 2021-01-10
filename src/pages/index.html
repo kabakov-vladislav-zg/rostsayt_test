@@ -340,7 +340,7 @@
 			</div>
 		</section>
 
-		<section class="problems text-center">
+		<section class="busines text-center">
 			<h2 class="h1 m-5">
 				Пока Вам тяжело <span class=" text-primary">побеждать конкурентов</span>?<br>Мы знаем над чем поработать!
 			</h2>
@@ -458,46 +458,325 @@
 		<section>
 			<div class="skew">
 				<div class="skew__col">
-					<div class="titel__text skew__left-content d-flex flex-column justify-content-center">
-						<h2>
-							Ваше <span class="text-primary">доверие</span> очень ценно для нас!
-						</h2>
-						<form class="col-7" action="#" method="post">
-							<p class="h4 mb-5">
+					<div class="min-form__text skew__left-content d-flex flex-column justify-content-center">
+						<form class="min-form__form form" name="min-form" action="#" method="post" >
+							<h2 class="mb-4 h1">
+								Ваше <span class="text-primary">доверие</span> очень ценно для нас!
+							</h2>
+
+							<p class="mb-4 h6">
 								Дорогой Клиент, Вы доверите нам продвижение в интернете? Уверяем, Вы будете довольны!
 							</p>
-							<div class="row">
-								<div class="col-md-6">
-									<p>
-										Что требуется сделать? <br> <input class="form-control" name="Что требуется сделать?" type="text">
-									</p>
-									<p>
-										Телефон для связи <span class="text-danger">*</span><br> <input class="form-control" name="Телефон" required="required" type="tel">
-									</p>
-								</div>
-								<div class="col-12">
-									<div class="form-group form-check">
-										<input id="exampleCheck3" class="form-check-input" checked="checked" name="Согласие" required="required" type="checkbox">
-										<label class="form-check-label" for="exampleCheck3">
-											Даю согласие на обработку персональных данных согласно
-											<a href="/politika-konfidentsialnosti-personalnykh-dannykh">
-												политике конфиденциальности
-											</a>
-										</label>
-									</div>
-									<input name="position" type="hidden" value="Отправьте заявку">
-									<p>
-										<button class="btn btn-primary" type="submit">
-											Отправить заявку на расчет
-										</button>
-									</p>
-								</div>
+
+							<div class="form-group">
+								<label class="form__label" for="min-form__inputText">
+									Что требуется сделать?
+								</label>
+								<input class="form-control" name="text" type="text" id="min-form__inputText">
 							</div>
+
+							<div class="form-group">
+								<label class="form__label" for="min-form__inputTel">
+									Телефон для связи<span class="text-primary">*</span>
+								</label>
+
+								<input class="form-control" name="tel" required="required" type="tel" id="min-form__inputTel">
+							</div>
+
+							<div class="form-group form-check form__confidentiality">
+								<input id="min-form__checkbox" class="form-check-input" checked="checked" name="Согласие" required="required" type="checkbox">
+								<label class="form__label" class="form-check-label" for="min-form__checkbox">
+									Даю согласие на обработку персональных данных согласно
+									<a href="/politika-konfidentsialnosti-personalnykh-dannykh">
+										политике конфиденциальности
+									</a>
+								</label>
+							</div>
+
+							<button class="btn btn-primary" type="submit">
+								Отправить заявку на расчет
+							</button>
 						</form>
 					</div>
 				</div>
-				<div class="skew__col skew__right-content title__face order-md-1">
-					<div class="skew__right-background title__background"></div>
+				<div class="skew__col skew__right-content min-form__face d-none d-md-block">
+					<div class="skew__right-background min-form__background"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="problem">
+			<div class="container-xl p-0">
+				<div class="problem__row no-gutters row-cols-1 row-cols-lg-2 justify-content-start">
+					<div class="col p-5 problem__statistics">
+						<div class="problems__list problem__list_long">
+							<div class="problem__text py-3">
+								<span class="text-primary">10%</span> компаний имеют хороший сайт и продвижение
+							</div>
+							<div class="line line_shadow"></div>
+						</div>
+
+						<div class="problem__list problem__list_middle">
+							<div class="problem__text py-3">
+								<span class="text-primary">40%</span> компаний думают, что имеют хороший сайт
+							</div>
+							<div class="line line_shadow"></div>
+						</div>
+
+						<div class="problem__list problem__list_short">
+							<div class="problem__text py-3">
+								<span class="text-primary">50%</span> компаний даже не представляют возможностей интернет рекламы
+							</div>
+							<div class="line line_shadow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="problem__row no-gutters row justify-content-end">
+					<div class="col-12 col-lg-7 p-5 m-lg-3 problem__audit text-white">
+						<h2>
+							<span class="h1 text-primary">90% компаний* в Тольятти</span> теряют миллионы рублей из-за плохого сайта и рекламы
+						</h2>
+
+						<p>
+							По статистике РостСайт <span class="text-primary">90% компаний Тольятти</span> не знают алгоритма по достижению высокого количества заявок из Интернета.
+						</p>
+						<p>
+							SEO продвижение, контекстная реклама, таргет ведение соц. сетей. Эти инструменты должны вырабатываться на полную.
+						</p>
+
+						<button class="btn btn-primary">
+							Заказать аудит
+						</button>
+
+						<button class="btn btn-outline-primary float-right problem__btn-outline">
+							Получить бесплатный он-лайн аудит
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="box">
+			<div class="container-xl">
+				<div class="row row-cols-1 row-cols-md-2">
+					<div class="col bg-dark text-white py-5">
+						<p>
+							Дорогой Клиент, <span class="text-primary">НАМ НЕ ВСЕ РАВНО!</span><br>Мы проводим аудит и быстро <span class="text-primary">находим причину</span> отсутствия лидов и обращений! <span class="text-primary">Мы инициативны</span>, настойчивы, всегда на связи. Нам <span class="text-primary">ОЧЕНЬ ВАЖНО</span>, чтобы Ваш бизнес рос. В этом случае Вы увеличите бюджет на наши услуги. Все очень прозрачно и просто.
+						</p>
+						<p>
+							С 2012 года УСПЕШНО РАСШИРЯЕМ БИЗНЕС НАШИХ КЛИЕНТОВ в <span class="text-primary">Тольятти и по РФ</span>.
+						</p>
+					</div>
+					<div class="col box__arm d-none d-md-block"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid p-0">
+			<div class="portfolio row no-gutters">
+				<a href="#" class="portfolio__card col-12 col-xl-6">
+					<img class="portfolio__img" src="img/81.webp" alt="Гринпрайд">
+					<span class="portfolio__label">
+						<h4>
+							Гринпрайд
+						</h4>
+						<p>
+							Green Pride – крупнейший поставщик временного персонала для мировых и федеральных компаний. Дизайн сайта выполнен с учетом пожеланий заказчика, добавлена анимация, которая будет привлекать внимание пользователей.
+						</p>
+					</span>
+				</a>
+
+				<div class="col-12 col-xl-6 container-fluid p-0">
+					<div class="row no-gutters">
+						<a href="#" href="#" class="portfolio__card col-12 col-sm-6 col-xl-6">
+							<img class="portfolio__img" src="img/52.webp" alt="Индустриальный парк АО АВТОВАЗ">
+							<span class="portfolio__label">
+								<h4>
+									Индустриальный парк  АО "АВТОВАЗ"
+								</h4>
+								<p>
+									Индустриальный парк – это внутреннее подразделение АО "АВТОВАЗ", которое предлагает услуги по аренде складских, торговых и офисных помещений. Дизайн сайта создавался с учетом фирменного стиля АО "АВТОВАЗ".
+								</p>
+							</span>
+						</a>
+
+						<a href="#" class="portfolio__card col-12 col-sm-6 col-xl-6">
+							<img class="portfolio__img" src="img/58.webp" alt="Сайт спортивных автомобилей LADA Sport">
+							<span class="portfolio__label">
+								<h4>
+									Сайт спортивных автомобилей LADA Sport
+								</h4>
+								<p>
+									Лаконичный дизайн, раскрывающий все преимущества спортивных автомобилей LADA Sport.
+								</p>
+							</span>
+						</a>
+
+						<a href="#" class="portfolio__card col-12 col-sm-6 col-xl-6">
+							<img class="portfolio__img" src="img/74.webp" alt="ПрофИТ">
+							<span class="portfolio__label">
+								<h4>
+									ПрофИТ
+								</h4>
+								<p>
+									"ПрофИТ" – компания, которая предоставляет облачный сервис для программы 1С. Сайт создан с учетом фирменного стиля компании.
+								</p>
+							</span>
+						</a>
+
+						<a href="#" class="portfolio__card col-12 col-sm-6 col-xl-6">
+							<img class="portfolio__img" src="img/63.webp" alt="Xiaomi">
+							<span class="portfolio__label">
+								<h4>
+									Xiaomi
+								</h4>
+								<p>
+									Mi-store24 – интернет-магазин компании Xiaomi. Стильный и современный дизайн не оставят клиентов равнодушными.
+								</p>
+							</span>
+						</a>
+					</div>
+				</div>
+
+
+				<a href="#" class="portfolio__card col-12 col-sm-6 col-xl-3">
+					<img class="portfolio__img" src="img/69.webp" alt="ГосЗакупки">
+					<span class="portfolio__label">
+						<h4>
+							ГосЗакупки
+						</h4>
+						<p>
+							"ZakazRF" – площадка для осуществления госзакупок. Сайт создан в светлых тонах. Интуитивно-понятный интерфейс понравится пользователям.
+						</p>
+					</span>
+				</a>
+
+				<a href="#" class="portfolio__card col-12 col-sm-6 col-xl-3">
+					<img class="portfolio__img" src="img/86.webp" alt="АкваЛидер">
+					<span class="portfolio__label">
+						<h4>
+							АкваЛидер
+						</h4>
+						<p>
+							АкваЛидер – интернет-магазин сантехники в Санкт-Петербурге. Сайт выполнен в светлых тонах.
+						</p>
+					</span>
+				</a>
+
+				<a href="#" class="portfolio__card col-12 col-sm-6 col-xl-3">
+					<img class="portfolio__img" src="img/83.webp" alt="LR - CLINIC">
+					<span class="portfolio__label">
+						<h4>
+							LR - CLINIC
+						</h4>
+						<p>
+							L.R.CLINIC - клиника экспертного уровня, оказывающая широкий спектр услуг в области косметологии иanti-Age медицины. Сайт выполнен в светлых тонах.
+						</p>
+					</span>
+				</a>
+
+				<div class="portfolio__card col-12 col-sm-6 col-xl-3 d-flex flex-column justify-content-center align-items-center text-center p-4">
+					<p>
+						Более <span class="h4">150</span> сделанных сайтов в портфолио
+					</p>
+					<a href="#" class="btn btn-primary">
+						Смотреть портфолио
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="h1 text-center m-5">
+				Благодаря Вам бизнес уже стал бойцом. Пора <span class="text-primary">стать чемпионом и заявить о себе!</span>
+			</h2>
+
+			<div class="container-sm p-0">
+				<div class="row no-gutters justify-content-center ">
+					<div class="col-12 col-sm-8 justify-content-center bg-primary d-flex justify-content-around align-items-center text-center text-light p-2">
+						<div>
+							Без профессиональной<br>подготовки
+						</div>
+						<div class="h1">
+							VS
+						</div>
+						<div>
+							С тренером,<br>которому не все равно!
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-xl">
+				<div class="row row-cols-1 row-cols-md-3">
+					<div class="fighter fighter_bad col d-none d-md-block">
+						<div>
+							<div class="py-3">
+								Не проведен аудит среди конкурентов
+							</div>
+							<div class="line"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Реклама едва окупает себя
+							</div>
+							<div class="line"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Сайт без мобильной версии
+							</div>
+							<div class="line"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Соц. сети не ведутся
+							</div>
+							<div class="line"></div>
+						</div>
+					</div>
+
+					<div class="col"></div>
+
+					<div class="fighter fighter_good col d-none d-md-block">
+						<div>
+							<div class="py-3">
+								Сайт яркий и запоминается!
+							</div>
+							<div class="line line_reverse"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Количество обращений напрягает отдел продаж
+							</div>
+							<div class="line line_reverse"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Реклама дотягивается до всех клиентов
+							</div>
+							<div class="line line_reverse"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Бизнес легко масштабировать в другие города
+							</div>
+							<div class="line line_reverse"></div>
+						</div>
+
+						<div>
+							<div class="py-3">
+								Конкуренты несут убытки
+							</div>
+							<div class="line line_reverse"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -1,0 +1,6 @@
+.line_shadow::after{
+	height: 1.5em;
+	width: 1.5em;
+	
+	box-shadow: 0 0 0 .5em rgba(255, 0, 0, .3);
+}

@@ -1,0 +1,10 @@
+@media (min-width: 768px){
+	.min-form__text{
+		padding-top: 6.25em;
+
+		margin-right: -200px;
+
+		width: calc(100% + 200px);
+		max-width: 770px;
+	}
+}

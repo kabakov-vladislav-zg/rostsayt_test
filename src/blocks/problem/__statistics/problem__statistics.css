@@ -1,0 +1,9 @@
+.problem__statistics{
+	background-color: rgba(255,255,255,0.5);
+}
+
+@media (min-width: 992px){
+	.problem__statistics{
+		background-color: rgba(255,255,255,0);
+	}
+}
