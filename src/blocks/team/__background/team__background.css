@@ -1,0 +1,7 @@
+.team__background{
+
+}
+.team__background::after{
+	content: "";
+	background-image: url(img/city_bottom.webp);
+}

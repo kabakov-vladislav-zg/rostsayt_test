@@ -1,0 +1,74 @@
+.team__face_0::after{
+	content: "";
+	background-image: url(img/krivov_vs.webp);
+}
+
+.team__face_1::after{
+	content: "";
+	background-image: url(img/krivov_as.webp);
+}
+
+.team__face_2::after{
+	content: "";
+	background-image: url(img/aitikanov_mb.webp);
+}
+
+.team__face_3::after{
+	content: "";
+	background-image: url(img/antonenko_as.webp);
+}
+
+.team__face_4::after{
+	content: "";
+	background-image: url(img/kamalov_ek.webp);
+}
+
+.team__face_5::after{
+	content: "";
+	background-image: url(img/gacolaeva_la.webp);
+}
+
+.team__face_6::after{
+	content: "";
+	background-image: url(img/safronova_av.webp);
+}
+
+.team__face_7::after{
+	content: "";
+	background-image: url(img/loginovskih_aa.webp);
+}
+
+.team__face_8::after{
+	content: "";
+	background-image: url(img/gimranova_ko.webp);
+}
+
+.team__face_9::after{
+	content: "";
+	background-image: url(img/romanov_va.webp);
+}
+
+.team__face_10::after{
+	content: "";
+	background-image: url(img/strelkov_gs.webp);
+}
+
+.team__face_11::after{
+	content: "";
+	background-image: url(img/vasileva_ss.webp);
+}
+
+.team__face_12::after{
+	content: "";
+	background-image: url(img/zayarnuy_ag.webp);
+}
+
+.team__face_13::after{
+	content: "";
+	background-image: url(img/balan_vv.webp);
+}
+
+.team__face_14::after{
+	content: "";
+	background-image: url(img/nazarova_vv.webp);
+}

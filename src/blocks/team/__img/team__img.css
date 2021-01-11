@@ -1,0 +1,5 @@
+.team__img{
+	border-radius: 50%;
+
+	background-color: var(--300);
+}

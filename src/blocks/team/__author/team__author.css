@@ -1,0 +1,76 @@
+.team__author{
+	position: absolute;
+	visibility: hidden;
+
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+@media (min-width: 576px){
+	.team__author{
+		top: 2em;
+		left: 5em;
+	}
+}
+
+
+.team__quote_0 > .team__author_0{
+	visibility: visible !important;
+}
+
+.team__quote_1 > .team__author_1{
+	visibility: visible !important;
+}
+
+.team__quote_2 > .team__author_2{
+	visibility: visible !important;
+}
+
+.team__quote_3 > .team__author_3{
+	visibility: visible !important;
+}
+
+.team__quote_4 > .team__author_4{
+	visibility: visible !important;
+}
+
+.team__quote_5 > .team__author_5{
+	visibility: visible !important;
+}
+
+.team__quote_6 > .team__author_6{
+	visibility: visible !important;
+}
+
+.team__quote_7 > .team__author_7{
+	visibility: visible !important;
+}
+
+.team__quote_8 > .team__author_8{
+	visibility: visible !important;
+}
+
+.team__quote_9 > .team__author_9{
+	visibility: visible !important;
+}
+
+.team__quote_10 > .team__author_10{
+	visibility: visible !important;
+}
+
+.team__quote_11 > .team__author_11{
+	visibility: visible !important;
+}
+
+.team__quote_12 > .team__author_12{
+	visibility: visible !important;
+}
+
+.team__quote_13 > .team__author_13{
+	visibility: visible !important;
+}
+
+.team__quote_14 > .team__author_14{
+	visibility: visible !important;
+}

@@ -1,0 +1,6 @@
+.reviews-carousel__img{
+	width: 4em !important;
+	height: 4em;
+
+	border-radius: 50%;
+}

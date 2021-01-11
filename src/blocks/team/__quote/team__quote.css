@@ -1,0 +1,20 @@
+.team__quote{
+	min-height: 20em;
+
+	position: relative;
+}
+
+@media (min-width: 576px){
+	.team__quote::after{
+		content: '';
+		position: absolute;
+		display: block;
+		top: 1rem;
+		left: 1rem;
+		background-color: #F53A3A;
+		width: 3rem;
+		height: 3rem;
+		-webkit-mask: url(/img/quote-left-solid.svg) no-repeat center;
+	}
+}
+	
